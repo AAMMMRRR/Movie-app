@@ -1,0 +1,171 @@
+/* src/css/MovieDetail.css */
+.movie-detail {
+    padding: 2rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #242424;
+  }
+  
+  .movie-detail-content {
+    display: flex;
+    flex-direction: row;
+    gap: 2rem;
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+  
+  .movie-poster {
+    flex: 1;
+    position: relative;
+  }
+  
+  .movie-poster img {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+  }
+  
+  .movie-info {
+    flex: 2;
+    color: white;
+    display: flex;
+    justify-content: center;
+  }
+  
+  .movie-info h2 {
+    font-size: 2.5rem;
+    margin-bottom: 1rem;
+  }
+  
+  .movie-info p {
+    color: #bbb;
+    font-size: 1rem;
+    margin-bottom: 1.5rem;
+  }
+  
+  .review-form {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+  }
+  
+  .review-form textarea {
+    padding: 1rem;
+    font-size: 1rem;
+    border-radius: 8px;
+    border: 1px solid #333;
+    background-color: #333;
+    color: white;
+    resize: none;
+  }
+  
+  .submit-review-btn {
+    padding: 1rem;
+    background-color: #e50914;
+    color: white;
+    border-radius: 8px;
+    border: none;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  .submit-review-btn:hover {
+    background-color: #f40612;
+  }
+  
+/* Sentiment Popup Styling */
+.sentiment-popup {
+  text-align: center;
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: rgba(0, 0, 0, 0.8);
+  color: white;
+  padding: 2rem;
+  border-radius: 8px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  z-index: 9999;
+  max-width: 600px;
+  height: 400px;
+  width: 100%;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.6);
+}
+
+.sentiment-popup h3 {
+  font-size: 1.5rem;
+  margin-bottom: 1rem;
+}
+
+.sentiment-popup p {
+  font-weight: bold;
+  font-size: 4rem;
+  margin-bottom: 1.5rem;
+}
+
+.sentiment-popup .close-popup-btn {
+  padding: 0.5rem 1rem;
+  background-color: #e50914;
+  color: white;
+  border-radius: 8px;
+  border: none;
+  cursor: pointer;
+  font-size: 1rem;
+  transition: background-color 0.3s;
+}
+
+.sentiment-popup .close-popup-btn:hover {
+  background-color: #f40612;
+}
+/* Carousel */
+.movie-reviews {
+  margin-top: 2rem;
+  width: 100%;
+}
+
+.carousel {
+  background-color: #333;
+  padding: 1rem;
+  border-radius: 8px;
+  color: white;
+}
+
+.carousel .review-text {
+  font-size: 1rem;
+  margin-bottom: 0.5rem;
+}
+
+.carousel .review-sentiment {
+  font-size: 0.9rem;
+  color: #aaa;
+}
+
+.carousel-nav {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 1rem;
+}
+
+.carousel-btn {
+  padding: 0.5rem 1rem;
+  background-color: #e50914;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+.carousel-btn:disabled {
+  background-color: #444;
+  cursor: not-allowed;
+}
+
+.carousel-btn:hover {
+  background-color: #f40612;
+}
