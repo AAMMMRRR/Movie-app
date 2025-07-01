@@ -25,7 +25,7 @@ Movies Sentiment Analysis is a Python-based project that analyzes movie review s
 
 ## Installation
 1. **Clone the Repository**:
-   - Clone the project from GitHub: `https://github.com/AAMMMRRR/Movies-Sentiment-Analysis`.
+   - Clone the project from GitHub: `https://github.com/AAMMMRRR/Movie-app/blob/main/Movie-app`.
    - Navigate to the project directory.
 
 2. **Install Python**:
@@ -116,8 +116,6 @@ Contributions are welcome! To contribute:
 4. Push your branch and create a pull request.
 5. Ensure changes align with the project’s goals.
 
-## License
-This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
 
 ## Repository (For Reviewing Jupyter Notebook File)
 [https://github.com/AAMMMRRR/Movie-app/blob/main/Movie-app/Data/Movies.ipynb]
