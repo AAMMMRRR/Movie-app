@@ -11,7 +11,6 @@ Movies Sentiment Analysis is a Python-based project that analyzes movie review s
 - [Logic Description](#logic-description)
 - [Usage](#usage)
 - [Contributing](#contributing)
-- [License](#license)
 - [Repository](#repository)
 
 ## Features
